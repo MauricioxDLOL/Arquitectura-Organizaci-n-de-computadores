@@ -2,22 +2,18 @@
 
 ## 👥 Autores
 
-**Paralelo 201**
+**Paralelo 200**
 * Javiera Ibaca Morales
 * Rol: 202273624-0
 
 **Paralelo 200**
-* Rodrigo Ariel Cáceres Gaete
-* Rol: 202273616-k
+* 
+* Rol: 
 
 ## 📝 Descripción
 
 **Compilación**
-Para la correcta compilación de este juego, se recomienda usar Visual Studio Code para abrir el archivo llamado t1.py. Posterior a eso debe compilar el código haciendo click en la opción de 'Run Code' (Simbolo de 'play' en la esquina superior derecha de la ventana de VSC), por consiguiente se abrirá la terminal donde empezará el juego y solamente tendrá que seguir lo indicado en la terminal. Otra opción para compilar el código es simplemente haciendo doble click en el archivo t1.py, así se abrirá una pestaña de cmd donde se podrá jugar, sin embargo esto no es recomendado. 
 
-**Desafío de Conversión y Juego de Tablero**
-
-Este proyecto en Python contiene una colección de funciones que permiten realizar conversiones entre sistemas numéricos (binario, octal, decimal y hexadecimal) y un minijuego que genera un tablero con un desafío final de conversión.
 
 ## 🚀 Características
 
@@ -26,10 +22,6 @@ Conversión de:
 * Octal a Decimal
 * Hexadecimal a Decimal
 * Decimal a Binario, Octal o Hexadecimal
-
-Juego que:
-* Genera un tablero aleatorio con un jugador 'S', un objetivo '*' y guardias '!'
-* Incluye un desafío final para convertir números desde una base numérica a decimal
 
 ## 📁 Estructura del Código
 
@@ -59,19 +51,6 @@ Juego que:
 * `convertir_a_hexadecimal(numero)`: Convierte decimales a hexadecimal
 * `convertir_a_decimal(largo)`: Determina la base según el tamaño del tablero
 * `desafio_conversion(largo)`: Genera el reto de conversión final
-
-### 📄 t1.py
-* `juego()`: Función principal que inicializa y controla el flujo de juego
-
-## 🧠 Lógica del Desafío
-
-La base numérica utilizada depende del largo del tablero:
-
-| Tamaño del tablero | Sistema numérico |
-|--------------------|------------------|
-| 0-20               | Binario          |
-| 21-100             | Octal            |
-| >100               | Hexadecimal      |
 
 El desafío consiste en convertir correctamente un número de la base correspondiente a decimal.
 
