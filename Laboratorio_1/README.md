@@ -7,8 +7,8 @@
 * Rol: 202273624-0
 
 **Paralelo 200**
-* 
-* Rol: 
+* Mauricio Godoy Cárcamo
+* Rol: 202304014-2
 
 ## 📝 Descripción
 
