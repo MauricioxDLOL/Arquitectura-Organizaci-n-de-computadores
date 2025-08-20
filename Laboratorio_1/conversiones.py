@@ -37,3 +37,21 @@ def octalADecimal(numero):
     
     return suma
 
+# Convierte un número decimal a hexadecimal (como string)
+def decimalAHexadecimal(numero):
+    hexadecimal = ''
+    hex_chars = '0123456789ABCDEF'
+    while numero >= 1:
+        hexadecimal += hex_chars[int(numero % 16)]
+        numero //= 16
+    return hexadecimal[::-1]
+
+# Convierte un número hexadecimal (como string) a decimal
+def hexadecimalADecimal(numero):
+    suma = 0
+    hex_chars = '0123456789ABCDEF'
+    numero = numero.upper()
+    for i, valor in enumerate(numero[::-1]):
+        suma += hex_chars.index(valor) * (16 ** i)
+    return suma
+
