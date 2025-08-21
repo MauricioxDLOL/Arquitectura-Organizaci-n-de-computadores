@@ -28,8 +28,8 @@ El objetivo es practicar y dominar las conversiones manuales entre bases, sin us
 
 ## Estructura del Código
 
-- `main.py`: Archivo principal, contiene el menú y la lógica de los modos de juego.
-- `conversiones.py`: Funciones de conversión entre sistemas numéricos (todas implementadas manualmente).
+- `LAB1_2023040142_2022736240.py`: Archivo principal, contiene el menú, la lógica de los modos de juego,
+    y las funciones de conversión entre sistemas numéricos (todas implementadas manualmente). .
 
 ## Algoritmos y Desarrollo
 
@@ -50,7 +50,7 @@ El objetivo es practicar y dominar las conversiones manuales entre bases, sin us
 
 ## ▶️ Ejecución
 
-1. Ejecuta `main.py` con Python 3.6 o superior.
+1. Ejecuta `LAB1_2023040142_2022736240.py` con Python 3.6 o superior.
 2. Sigue las instrucciones en pantalla para elegir el modo de juego y realizar las conversiones.
 3. Al superar el primer desafío, se desbloquean ambos modos de conversión.
 
